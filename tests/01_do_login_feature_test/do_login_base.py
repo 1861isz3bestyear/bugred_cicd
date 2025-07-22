@@ -27,5 +27,6 @@ class DoLoginBase(BaseTest):
         self.users_page.is_openned()
         self.users_page.click_authorized_user_toggle()
 
+
     def check_dologin_fail(self):
         self.authorization_login_page.is_openned()

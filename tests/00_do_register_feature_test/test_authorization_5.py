@@ -10,4 +10,4 @@ class TestAuthorizationFail_5(TestAuthorizationBase):
         self.enter_empty_email()
         self.enter_empty_password()
         self.press_registration_button()
-        self.check_authorization_fail
+        self.check_authorization_fail()

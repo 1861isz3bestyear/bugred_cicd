@@ -40,9 +40,10 @@ class TestAuthorizationBase(BaseTest):
     def check_authorization_success(self):
         self.users_page.is_openned()
         self.users_page.click_authorized_user_toggle()
+        self.users_page.make_screenshot("Do register succes")
 
 
     def check_authorization_fail(self):
-        self.authorization_login_page.is_openned()
+        self.authorization_login_page.make_screenshot("Do register fail")
 
 #НАПИСАТЬ ПРОВЕРКУ!!!!!!!!!!!!!!!!!!

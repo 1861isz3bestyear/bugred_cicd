@@ -9,4 +9,4 @@ class TestDoLoginFail_1(DoLoginBase):
         self.enter_empty_email()
         self.enter_password()
         self.press_login_button()
-        self.check_dologin_fail
+        self.check_dologin_fail()

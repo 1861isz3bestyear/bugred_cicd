@@ -5,7 +5,7 @@ load_dotenv() # HAVE TO LOAD ENV VARIABLES FIRST
 
 class Data:
     testbase = os.getenv("TESTBASE")
-    test_id = 5
+    test_id = 6
     USERNAME = f"{testbase}{test_id}"
     EMAIL = f"{testbase}{test_id}@mail.ru"
     PASSWORD = f"{testbase}{test_id}"
@@ -13,6 +13,6 @@ class Data:
     VACANT_USERNAME = f"{USERNAME}v"
     VACANT_EMAIL = f"{EMAIL}v"
 
-    EMTY_DATA = ""
+    EMPTY_DATA = ""
 
     SPACE_BUTTON_DATA =" "

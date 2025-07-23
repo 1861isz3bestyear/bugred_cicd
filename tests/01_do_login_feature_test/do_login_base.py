@@ -12,13 +12,13 @@ class DoLoginBase(BaseTest):
         self.authorization_login_page.input_login_email(self.data.EMAIL)
 
     def enter_empty_email(self):
-        self.authorization_login_page.input_login_email(self.data.EMTY_DATA)
+        self.authorization_login_page.input_login_email(self.data.EMPTY_DATA)
 
     def enter_password(self):
         self.authorization_login_page.input_login_password(self.data.PASSWORD)
 
     def enter_empty_password(self):
-        self.authorization_login_page.input_login_password(self.data.EMTY_DATA)
+        self.authorization_login_page.input_login_password(self.data.EMPTY_DATA)
 
     def press_login_button(self):
         self.authorization_login_page.press_login_button()
@@ -26,7 +26,8 @@ class DoLoginBase(BaseTest):
     def check_dologin_success(self):
         self.users_page.is_openned()
         self.users_page.click_authorized_user_toggle()
+        self.users_page.make_screenshot("Do login success")
 
 
     def check_dologin_fail(self):
-        self.authorization_login_page.is_openned()
+        self.authorization_login_page.make_screenshot("Do login fail")

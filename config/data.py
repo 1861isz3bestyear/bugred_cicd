@@ -4,8 +4,8 @@ from dotenv import load_dotenv
 load_dotenv() # HAVE TO LOAD ENV VARIABLES FIRST
 
 class Data:
-    testbase = os.getenv("TESTBASE")
-    test_id = 6
+    testbase = os.getenv("LOGIN")
+    test_id = 11
     USERNAME = f"{testbase}{test_id}"
     EMAIL = f"{testbase}{test_id}@mail.ru"
     PASSWORD = f"{testbase}{test_id}"

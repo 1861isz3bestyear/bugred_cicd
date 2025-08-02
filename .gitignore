@@ -1,0 +1,6 @@
+.pytest_cache
+__pycache__
+.env
+.venv
+*.iml
+allure_results

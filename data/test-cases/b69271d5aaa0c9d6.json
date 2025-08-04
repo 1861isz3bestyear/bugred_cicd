@@ -1,0 +1,235 @@
+{
+  "uid" : "b69271d5aaa0c9d6",
+  "name" : "Register new failed user. Username is busy. Email and password are valid",
+  "fullName" : "tests.00_do_register_feature_test.test_authorization_1.TestAuthorizationFail_1#test_failed_authorization_1",
+  "historyId" : "2dfb23577074fff21249ea5f6a2cfddf",
+  "time" : {
+    "start" : 1754312077348,
+    "stop" : 1754312079599,
+    "duration" : 2251
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setup",
+    "time" : {
+      "start" : 1754312077348,
+      "stop" : 1754312077348,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "driver",
+    "time" : {
+      "start" : 1754312077155,
+      "stop" : 1754312077348,
+      "duration" : 193
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Open http://users.bugred.ru/ page",
+      "time" : {
+        "start" : 1754312077348,
+        "stop" : 1754312078339,
+        "duration" : 991
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Click 'Authorization button link'",
+      "time" : {
+        "start" : 1754312078339,
+        "stop" : 1754312079093,
+        "duration" : 754
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Page http://users.bugred.ru/user/login/index.html is opened",
+      "time" : {
+        "start" : 1754312079093,
+        "stop" : 1754312079096,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Enter username for registration",
+      "time" : {
+        "start" : 1754312079096,
+        "stop" : 1754312079148,
+        "duration" : 52
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "username",
+        "value" : "'LOGIN24'"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Enter email for registration",
+      "time" : {
+        "start" : 1754312079148,
+        "stop" : 1754312079192,
+        "duration" : 44
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "email",
+        "value" : "'LOGIN24@mail.ruv'"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Enter password for registration",
+      "time" : {
+        "start" : 1754312079192,
+        "stop" : 1754312079231,
+        "duration" : 39
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "password",
+        "value" : "'LOGIN24'"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Press registration button",
+      "time" : {
+        "start" : 1754312079231,
+        "stop" : 1754312079280,
+        "duration" : 49
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "c8c50d12b3edf87e",
+      "name" : "Do register fail",
+      "source" : "c8c50d12b3edf87e.png",
+      "type" : "image/png",
+      "size" : 64648
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 7,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "driver::0",
+    "time" : {
+      "start" : 1754312079601,
+      "stop" : 1754312079657,
+      "duration" : 56
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "'Do_register' functionality."
+  }, {
+    "name" : "severity",
+    "value" : "Critical"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests.00_do_register_feature_test"
+  }, {
+    "name" : "suite",
+    "value" : "test_authorization_1"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestAuthorizationFail_1"
+  }, {
+    "name" : "host",
+    "value" : "c594f56a7ce2"
+  }, {
+    "name" : "thread",
+    "value" : "33-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.00_do_register_feature_test.test_authorization_1"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b69271d5aaa0c9d6.json",
+  "parameterValues" : [ ]
+}

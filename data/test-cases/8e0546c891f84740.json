@@ -1,0 +1,245 @@
+{
+  "uid" : "8e0546c891f84740",
+  "name" : "Register new failed user. Every parameter is invalid",
+  "fullName" : "tests.00_do_register_feature_test.test_authorization_5.TestAuthorizationFail_5#test_failed_authorization_5",
+  "historyId" : "d89b7cea1cdd903e93c41b400ab828ee",
+  "time" : {
+    "start" : 1754320024148,
+    "stop" : 1754320029869,
+    "duration" : 5721
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setup",
+    "time" : {
+      "start" : 1754320024148,
+      "stop" : 1754320024148,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "driver",
+    "time" : {
+      "start" : 1754320023821,
+      "stop" : 1754320024148,
+      "duration" : 327
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Open http://users.bugred.ru/ page",
+      "time" : {
+        "start" : 1754320024148,
+        "stop" : 1754320025798,
+        "duration" : 1650
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Click 'Authorization button link'",
+      "time" : {
+        "start" : 1754320025798,
+        "stop" : 1754320029429,
+        "duration" : 3631
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Page http://users.bugred.ru/user/login/index.html is opened",
+      "time" : {
+        "start" : 1754320029429,
+        "stop" : 1754320029434,
+        "duration" : 5
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Enter username for registration",
+      "time" : {
+        "start" : 1754320029434,
+        "stop" : 1754320029502,
+        "duration" : 68
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "username",
+        "value" : "''"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Enter email for registration",
+      "time" : {
+        "start" : 1754320029503,
+        "stop" : 1754320029558,
+        "duration" : 55
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "email",
+        "value" : "''"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Enter password for registration",
+      "time" : {
+        "start" : 1754320029559,
+        "stop" : 1754320029614,
+        "duration" : 55
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "password",
+        "value" : "''"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Press registration button",
+      "time" : {
+        "start" : 1754320029614,
+        "stop" : 1754320029700,
+        "duration" : 86
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "a79006e3dd3c99cd",
+      "name" : "Do register fail",
+      "source" : "a79006e3dd3c99cd.png",
+      "type" : "image/png",
+      "size" : 62438
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 7,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "driver::0",
+    "time" : {
+      "start" : 1754320029870,
+      "stop" : 1754320029935,
+      "duration" : 65
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "'Do_register' functionality."
+  }, {
+    "name" : "severity",
+    "value" : "Critical"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests.00_do_register_feature_test"
+  }, {
+    "name" : "suite",
+    "value" : "test_authorization_5"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestAuthorizationFail_5"
+  }, {
+    "name" : "host",
+    "value" : "f8a4a701720e"
+  }, {
+    "name" : "thread",
+    "value" : "54-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.00_do_register_feature_test.test_authorization_5"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ {
+      "uid" : "74fcfb5658b38a37",
+      "status" : "passed",
+      "time" : {
+        "start" : 1754312087075,
+        "stop" : 1754312089160,
+        "duration" : 2085
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "8e0546c891f84740.json",
+  "parameterValues" : [ ]
+}

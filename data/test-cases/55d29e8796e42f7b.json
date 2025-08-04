@@ -1,0 +1,232 @@
+{
+  "uid" : "55d29e8796e42f7b",
+  "name" : "test_failed_do_login_2",
+  "fullName" : "tests.01_do_login_feature_test.test_do_login_2.TestDoLoginFail_2#test_failed_do_login_2",
+  "historyId" : "2bf94860d2f2be2b8f1d83fb5223bb9b",
+  "time" : {
+    "start" : 1754312095203,
+    "stop" : 1754312097582,
+    "duration" : 2379
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setup",
+    "time" : {
+      "start" : 1754312095203,
+      "stop" : 1754312095203,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "driver",
+    "time" : {
+      "start" : 1754312095009,
+      "stop" : 1754312095203,
+      "duration" : 194
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Test failed Do Login. Password is empty. Email is valid (from user in system)",
+      "time" : {
+        "start" : 1754312095203,
+        "stop" : 1754312097582,
+        "duration" : 2379
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Open http://users.bugred.ru/ page",
+        "time" : {
+          "start" : 1754312095203,
+          "stop" : 1754312096316,
+          "duration" : 1113
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "Click 'Authorization button link'",
+        "time" : {
+          "start" : 1754312096316,
+          "stop" : 1754312097102,
+          "duration" : 786
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "Page http://users.bugred.ru/user/login/index.html is opened",
+        "time" : {
+          "start" : 1754312097102,
+          "stop" : 1754312097105,
+          "duration" : 3
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "Enter email for login",
+        "time" : {
+          "start" : 1754312097105,
+          "stop" : 1754312097157,
+          "duration" : 52
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "email",
+          "value" : "'LOGIN24@mail.ru'"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "Enter password for login",
+        "time" : {
+          "start" : 1754312097157,
+          "stop" : 1754312097194,
+          "duration" : 37
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "password",
+          "value" : "''"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "Press login button",
+        "time" : {
+          "start" : 1754312097194,
+          "stop" : 1754312097461,
+          "duration" : 267
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ {
+        "uid" : "88d4c7fdb90bdc9d",
+        "name" : "Do login fail",
+        "source" : "88d4c7fdb90bdc9d.png",
+        "type" : "image/png",
+        "size" : 60443
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 6,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 7,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "driver::0",
+    "time" : {
+      "start" : 1754312097584,
+      "stop" : 1754312097645,
+      "duration" : 61
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "Critical"
+  }, {
+    "name" : "feature",
+    "value" : "Do login functionality"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests.01_do_login_feature_test"
+  }, {
+    "name" : "suite",
+    "value" : "test_do_login_2"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestDoLoginFail_2"
+  }, {
+    "name" : "host",
+    "value" : "c594f56a7ce2"
+  }, {
+    "name" : "thread",
+    "value" : "33-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.01_do_login_feature_test.test_do_login_2"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "55d29e8796e42f7b.json",
+  "parameterValues" : [ ]
+}

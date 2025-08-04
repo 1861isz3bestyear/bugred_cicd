@@ -1,0 +1,255 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "children" : [ {
+    "name" : "c594f56a7ce2",
+    "children" : [ {
+      "name" : "33-MainThread",
+      "children" : [ {
+        "name" : "Test failed Do Login. Email is empty. Password is valid (from user in system)",
+        "uid" : "abd10d5e7d3ec966",
+        "parentUid" : "9a76117a2a5b17535878ad8bf0252ea5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1754312092806,
+          "stop" : 1754312094949,
+          "duration" : 2143
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_failed_do_login_2",
+        "uid" : "55d29e8796e42f7b",
+        "parentUid" : "9a76117a2a5b17535878ad8bf0252ea5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1754312095203,
+          "stop" : 1754312097582,
+          "duration" : 2379
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Login user. All parametres(Email, Password) are valid",
+        "uid" : "d74cb2acdc7a6c98",
+        "parentUid" : "9a76117a2a5b17535878ad8bf0252ea5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1754312089412,
+          "stop" : 1754312092561,
+          "duration" : 3149
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Register new failed user. Email is busy. Username and password are valid",
+        "uid" : "7c17b5e480b539d9",
+        "parentUid" : "9a76117a2a5b17535878ad8bf0252ea5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1754312079857,
+          "stop" : 1754312082206,
+          "duration" : 2349
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Register new user. All parametres (Username, Email, Password) are valid",
+        "uid" : "3663e96cb832e09c",
+        "parentUid" : "9a76117a2a5b17535878ad8bf0252ea5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1754312072367,
+          "stop" : 1754312077084,
+          "duration" : 4717
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Register new failed user. Password is empty. Username and Email are valid",
+        "uid" : "c4bead56d80c23b4",
+        "parentUid" : "9a76117a2a5b17535878ad8bf0252ea5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1754312082445,
+          "stop" : 1754312084494,
+          "duration" : 2049
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Register new failed user. Username is busy. Email and password are valid",
+        "uid" : "b69271d5aaa0c9d6",
+        "parentUid" : "9a76117a2a5b17535878ad8bf0252ea5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1754312077348,
+          "stop" : 1754312079599,
+          "duration" : 2251
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Register new failed user. Email is busy. Username and password are valid",
+        "uid" : "7698f2a6cc4f460b",
+        "parentUid" : "9a76117a2a5b17535878ad8bf0252ea5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1754312084739,
+          "stop" : 1754312086823,
+          "duration" : 2084
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Register new failed user. Every parameter is invalid",
+        "uid" : "74fcfb5658b38a37",
+        "parentUid" : "9a76117a2a5b17535878ad8bf0252ea5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1754312087075,
+          "stop" : 1754312089160,
+          "duration" : 2085
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "9a76117a2a5b17535878ad8bf0252ea5"
+    } ],
+    "uid" : "3792409a312939c7dd89ca1019637e39"
+  }, {
+    "name" : "f8a4a701720e",
+    "children" : [ {
+      "name" : "54-MainThread",
+      "children" : [ {
+        "name" : "Login user. All parametres(Email, Password) are valid",
+        "uid" : "a10cc4a44286a6c0",
+        "parentUid" : "6c944f37faec2b4da15a06e538973d0c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1754320030269,
+          "stop" : 1754320036970,
+          "duration" : 6701
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Register new failed user. Every parameter is invalid",
+        "uid" : "8e0546c891f84740",
+        "parentUid" : "6c944f37faec2b4da15a06e538973d0c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1754320024148,
+          "stop" : 1754320029869,
+          "duration" : 5721
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Register new failed user. Password is empty. Username and Email are valid",
+        "uid" : "d523f2c2cf2a8cd7",
+        "parentUid" : "6c944f37faec2b4da15a06e538973d0c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1754320011791,
+          "stop" : 1754320017732,
+          "duration" : 5941
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test failed Do Login. Email is empty. Password is valid (from user in system)",
+        "uid" : "371f532dfe8407c1",
+        "parentUid" : "6c944f37faec2b4da15a06e538973d0c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1754320037367,
+          "stop" : 1754320043275,
+          "duration" : 5908
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Register new failed user. Email is busy. Username and password are valid",
+        "uid" : "213b2355093ae378",
+        "parentUid" : "6c944f37faec2b4da15a06e538973d0c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1754320003774,
+          "stop" : 1754320011384,
+          "duration" : 7610
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Register new failed user. Username is busy. Email and password are valid",
+        "uid" : "4e52b885e6c29fe4",
+        "parentUid" : "6c944f37faec2b4da15a06e538973d0c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1754319996846,
+          "stop" : 1754320003371,
+          "duration" : 6525
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Register new user. All parametres (Username, Email, Password) are valid",
+        "uid" : "b8026aff26d9cb86",
+        "parentUid" : "6c944f37faec2b4da15a06e538973d0c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1754319988561,
+          "stop" : 1754319996427,
+          "duration" : 7866
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_failed_do_login_2",
+        "uid" : "76c8685b22dc2281",
+        "parentUid" : "6c944f37faec2b4da15a06e538973d0c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1754320043664,
+          "stop" : 1754320050142,
+          "duration" : 6478
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Register new failed user. Email is busy. Username and password are valid",
+        "uid" : "4b2eb87362afe0d4",
+        "parentUid" : "6c944f37faec2b4da15a06e538973d0c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1754320018136,
+          "stop" : 1754320023756,
+          "duration" : 5620
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "6c944f37faec2b4da15a06e538973d0c"
+    } ],
+    "uid" : "3adb15b99c9aa24834654a6746bc548b"
+  } ],
+  "name" : "timeline"
+}

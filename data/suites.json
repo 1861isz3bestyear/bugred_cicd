@@ -1,0 +1,202 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "children" : [ {
+    "name" : "tests.00_do_register_feature_test",
+    "children" : [ {
+      "name" : "test_authorization_0",
+      "children" : [ {
+        "name" : "TestAuthorizationSuccess",
+        "children" : [ {
+          "name" : "Register new user. All parametres (Username, Email, Password) are valid",
+          "uid" : "b8026aff26d9cb86",
+          "parentUid" : "a50f0968bb07cf00402959e4777b3beb",
+          "status" : "passed",
+          "time" : {
+            "start" : 1754319988561,
+            "stop" : 1754319996427,
+            "duration" : 7866
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "a50f0968bb07cf00402959e4777b3beb"
+      } ],
+      "uid" : "ffb3ac15e46f85cbadfd859cfbec8db2"
+    }, {
+      "name" : "test_authorization_1",
+      "children" : [ {
+        "name" : "TestAuthorizationFail_1",
+        "children" : [ {
+          "name" : "Register new failed user. Username is busy. Email and password are valid",
+          "uid" : "4e52b885e6c29fe4",
+          "parentUid" : "98fb30b75c2d3761a73bf24f5edb39f5",
+          "status" : "passed",
+          "time" : {
+            "start" : 1754319996846,
+            "stop" : 1754320003371,
+            "duration" : 6525
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "98fb30b75c2d3761a73bf24f5edb39f5"
+      } ],
+      "uid" : "2640f979e5934d98c0b226cdb09e4ea2"
+    }, {
+      "name" : "test_authorization_2",
+      "children" : [ {
+        "name" : "TestAuthorizationFail_2",
+        "children" : [ {
+          "name" : "Register new failed user. Email is busy. Username and password are valid",
+          "uid" : "213b2355093ae378",
+          "parentUid" : "eaccba966e0c8949a612b5f24089a728",
+          "status" : "passed",
+          "time" : {
+            "start" : 1754320003774,
+            "stop" : 1754320011384,
+            "duration" : 7610
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "eaccba966e0c8949a612b5f24089a728"
+      } ],
+      "uid" : "a9d9a826bb132086809fa9388644ec52"
+    }, {
+      "name" : "test_authorization_3",
+      "children" : [ {
+        "name" : "TestAuthorizationFail_3",
+        "children" : [ {
+          "name" : "Register new failed user. Password is empty. Username and Email are valid",
+          "uid" : "d523f2c2cf2a8cd7",
+          "parentUid" : "52e87f95a3ef108e43faab8426a9ccba",
+          "status" : "passed",
+          "time" : {
+            "start" : 1754320011791,
+            "stop" : 1754320017732,
+            "duration" : 5941
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "52e87f95a3ef108e43faab8426a9ccba"
+      } ],
+      "uid" : "66cb9da5de79ab66a6d1edac6dea25ae"
+    }, {
+      "name" : "test_authorization_4",
+      "children" : [ {
+        "name" : "TestAuthorizationFail_4",
+        "children" : [ {
+          "name" : "Register new failed user. Email is busy. Username and password are valid",
+          "uid" : "4b2eb87362afe0d4",
+          "parentUid" : "1afb795bc905c88e4d45be3b756cb473",
+          "status" : "passed",
+          "time" : {
+            "start" : 1754320018136,
+            "stop" : 1754320023756,
+            "duration" : 5620
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "1afb795bc905c88e4d45be3b756cb473"
+      } ],
+      "uid" : "769d96197a168faea9f7d757b660ca78"
+    }, {
+      "name" : "test_authorization_5",
+      "children" : [ {
+        "name" : "TestAuthorizationFail_5",
+        "children" : [ {
+          "name" : "Register new failed user. Every parameter is invalid",
+          "uid" : "8e0546c891f84740",
+          "parentUid" : "5aee794eaa06e086046c37ed2c030973",
+          "status" : "passed",
+          "time" : {
+            "start" : 1754320024148,
+            "stop" : 1754320029869,
+            "duration" : 5721
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "5aee794eaa06e086046c37ed2c030973"
+      } ],
+      "uid" : "88994c71d77b933ccf979a368477fea0"
+    } ],
+    "uid" : "897ef7d746a89229f5b4db176b67095a"
+  }, {
+    "name" : "tests.01_do_login_feature_test",
+    "children" : [ {
+      "name" : "test_do_login_0",
+      "children" : [ {
+        "name" : "TestDoLoginSuccess",
+        "children" : [ {
+          "name" : "Login user. All parametres(Email, Password) are valid",
+          "uid" : "a10cc4a44286a6c0",
+          "parentUid" : "3f2ef273d7d8a36b0d1555b4d9ea3936",
+          "status" : "passed",
+          "time" : {
+            "start" : 1754320030269,
+            "stop" : 1754320036970,
+            "duration" : 6701
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "3f2ef273d7d8a36b0d1555b4d9ea3936"
+      } ],
+      "uid" : "0e79105f96eb4f76c4d8de405cea65a2"
+    }, {
+      "name" : "test_do_login_1",
+      "children" : [ {
+        "name" : "TestDoLoginFail_1",
+        "children" : [ {
+          "name" : "Test failed Do Login. Email is empty. Password is valid (from user in system)",
+          "uid" : "371f532dfe8407c1",
+          "parentUid" : "05ec3379f79d22a7440460d8a37f3b89",
+          "status" : "passed",
+          "time" : {
+            "start" : 1754320037367,
+            "stop" : 1754320043275,
+            "duration" : 5908
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "05ec3379f79d22a7440460d8a37f3b89"
+      } ],
+      "uid" : "3714499e138571fcd795a9ac15b2ef8c"
+    }, {
+      "name" : "test_do_login_2",
+      "children" : [ {
+        "name" : "TestDoLoginFail_2",
+        "children" : [ {
+          "name" : "test_failed_do_login_2",
+          "uid" : "76c8685b22dc2281",
+          "parentUid" : "c4081deddaa0db11d3c470ef1c182a40",
+          "status" : "passed",
+          "time" : {
+            "start" : 1754320043664,
+            "stop" : 1754320050142,
+            "duration" : 6478
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "c4081deddaa0db11d3c470ef1c182a40"
+      } ],
+      "uid" : "a0d99e4e65a171605b569015392483c2"
+    } ],
+    "uid" : "b7940f4d119c094d317d3310569c8ef7"
+  } ],
+  "name" : "suites"
+}

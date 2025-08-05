@@ -1,5 +1,43 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
-  "children" : [ ],
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "urllib3.exceptions.ReadTimeoutError: HTTPConnectionPool(host='localhost', port=42679): Read timed out. (read timeout=120)",
+      "children" : [ {
+        "name" : "Register new failed user. Email is busy. Username and password are valid",
+        "uid" : "789fe8f0d056f237",
+        "parentUid" : "06023d572a3732a1a6c33d7f7dd92415",
+        "status" : "broken",
+        "time" : {
+          "start" : 1754421986800,
+          "stop" : 1754422108424,
+          "duration" : 121624
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "06023d572a3732a1a6c33d7f7dd92415"
+    }, {
+      "name" : "urllib3.exceptions.ReadTimeoutError: HTTPConnectionPool(host='localhost', port=48067): Read timed out. (read timeout=120)",
+      "children" : [ {
+        "name" : "Register new failed user. Email is busy. Username and password are valid",
+        "uid" : "7ba671dfa07e5a06",
+        "parentUid" : "223965a8b40cd8b5dd1c7b616bdaa7db",
+        "status" : "broken",
+        "time" : {
+          "start" : 1754422294086,
+          "stop" : 1754422415557,
+          "duration" : 121471
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "223965a8b40cd8b5dd1c7b616bdaa7db"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ],
   "name" : "categories"
 }

@@ -1,22 +1,22 @@
 {
-  "uid" : "8e0546c891f84740",
-  "name" : "Register new failed user. Every parameter is invalid",
-  "fullName" : "tests.00_do_register_feature_test.test_authorization_5.TestAuthorizationFail_5#test_failed_authorization_5",
-  "historyId" : "d89b7cea1cdd903e93c41b400ab828ee",
+  "uid" : "b9fe87d1a50dbbb8",
+  "name" : "Test failed Do Login. Email is empty. Password is valid (from user in system)",
+  "fullName" : "tests.01_do_login_feature_test.test_do_login_1.TestDoLoginFail_1#test_failed_do_login_1",
+  "historyId" : "f6ce35998e1ebe3000f6525dc323ce44",
   "time" : {
-    "start" : 1754320024148,
-    "stop" : 1754320029869,
-    "duration" : 5721
+    "start" : 1754422607429,
+    "stop" : 1754422611713,
+    "duration" : 4284
   },
   "status" : "passed",
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ {
-    "name" : "setup",
+    "name" : "driver",
     "time" : {
-      "start" : 1754320024148,
-      "stop" : 1754320024148,
-      "duration" : 0
+      "start" : 1754422607092,
+      "stop" : 1754422607428,
+      "duration" : 336
     },
     "status" : "passed",
     "steps" : [ ],
@@ -27,11 +27,11 @@
     "stepsCount" : 0,
     "hasContent" : false
   }, {
-    "name" : "driver",
+    "name" : "setup",
     "time" : {
-      "start" : 1754320023821,
-      "stop" : 1754320024148,
-      "duration" : 327
+      "start" : 1754422607428,
+      "stop" : 1754422607428,
+      "duration" : 0
     },
     "status" : "passed",
     "steps" : [ ],
@@ -47,9 +47,9 @@
     "steps" : [ {
       "name" : "Open http://users.bugred.ru/ page",
       "time" : {
-        "start" : 1754320024148,
-        "stop" : 1754320025798,
-        "duration" : 1650
+        "start" : 1754422607429,
+        "stop" : 1754422608536,
+        "duration" : 1107
       },
       "status" : "passed",
       "steps" : [ ],
@@ -62,9 +62,9 @@
     }, {
       "name" : "Click 'Authorization button link'",
       "time" : {
-        "start" : 1754320025798,
-        "stop" : 1754320029429,
-        "duration" : 3631
+        "start" : 1754422608537,
+        "stop" : 1754422611059,
+        "duration" : 2522
       },
       "status" : "passed",
       "steps" : [ ],
@@ -77,9 +77,9 @@
     }, {
       "name" : "Page http://users.bugred.ru/user/login/index.html is opened",
       "time" : {
-        "start" : 1754320029429,
-        "stop" : 1754320029434,
-        "duration" : 5
+        "start" : 1754422611059,
+        "stop" : 1754422611069,
+        "duration" : 10
       },
       "status" : "passed",
       "steps" : [ ],
@@ -90,29 +90,11 @@
       "stepsCount" : 0,
       "hasContent" : false
     }, {
-      "name" : "Enter username for registration",
+      "name" : "Enter email for login",
       "time" : {
-        "start" : 1754320029434,
-        "stop" : 1754320029502,
-        "duration" : 68
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ {
-        "name" : "username",
-        "value" : "''"
-      } ],
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "stepsCount" : 0,
-      "hasContent" : true
-    }, {
-      "name" : "Enter email for registration",
-      "time" : {
-        "start" : 1754320029503,
-        "stop" : 1754320029558,
-        "duration" : 55
+        "start" : 1754422611069,
+        "stop" : 1754422611136,
+        "duration" : 67
       },
       "status" : "passed",
       "steps" : [ ],
@@ -126,29 +108,29 @@
       "stepsCount" : 0,
       "hasContent" : true
     }, {
-      "name" : "Enter password for registration",
+      "name" : "Enter password for login",
       "time" : {
-        "start" : 1754320029559,
-        "stop" : 1754320029614,
-        "duration" : 55
+        "start" : 1754422611136,
+        "stop" : 1754422611204,
+        "duration" : 68
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ {
         "name" : "password",
-        "value" : "''"
+        "value" : "'LOGIN25'"
       } ],
       "attachmentsCount" : 0,
       "shouldDisplayMessage" : false,
       "stepsCount" : 0,
       "hasContent" : true
     }, {
-      "name" : "Press registration button",
+      "name" : "Press login button",
       "time" : {
-        "start" : 1754320029614,
-        "stop" : 1754320029700,
-        "duration" : 86
+        "start" : 1754422611204,
+        "stop" : 1754422611576,
+        "duration" : 372
       },
       "status" : "passed",
       "steps" : [ ],
@@ -160,24 +142,24 @@
       "hasContent" : false
     } ],
     "attachments" : [ {
-      "uid" : "a79006e3dd3c99cd",
-      "name" : "Do register fail",
-      "source" : "a79006e3dd3c99cd.png",
+      "uid" : "b83ac3b44a5f58bc",
+      "name" : "Do login fail",
+      "source" : "b83ac3b44a5f58bc.png",
       "type" : "image/png",
-      "size" : 62438
+      "size" : 60760
     } ],
     "parameters" : [ ],
     "attachmentsCount" : 1,
     "shouldDisplayMessage" : false,
-    "stepsCount" : 7,
+    "stepsCount" : 6,
     "hasContent" : true
   },
   "afterStages" : [ {
     "name" : "driver::0",
     "time" : {
-      "start" : 1754320029870,
-      "stop" : 1754320029935,
-      "duration" : 65
+      "start" : 1754422611714,
+      "stop" : 1754422611780,
+      "duration" : 66
     },
     "status" : "passed",
     "steps" : [ ],
@@ -190,25 +172,25 @@
   } ],
   "labels" : [ {
     "name" : "feature",
-    "value" : "'Do_register' functionality."
+    "value" : "Do login functionality"
   }, {
     "name" : "severity",
     "value" : "Critical"
   }, {
     "name" : "parentSuite",
-    "value" : "tests.00_do_register_feature_test"
+    "value" : "tests.01_do_login_feature_test"
   }, {
     "name" : "suite",
-    "value" : "test_authorization_5"
+    "value" : "test_do_login_1"
   }, {
     "name" : "subSuite",
-    "value" : "TestAuthorizationFail_5"
+    "value" : "TestDoLoginFail_1"
   }, {
     "name" : "host",
-    "value" : "f8a4a701720e"
+    "value" : "59b4e2a46f6c"
   }, {
     "name" : "thread",
-    "value" : "54-MainThread"
+    "value" : "49-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -217,7 +199,7 @@
     "value" : "cpython3"
   }, {
     "name" : "package",
-    "value" : "tests.00_do_register_feature_test.test_authorization_5"
+    "value" : "tests.01_do_login_feature_test.test_do_login_1"
   }, {
     "name" : "resultFormat",
     "value" : "allure2"
@@ -228,18 +210,10 @@
   "retry" : false,
   "extra" : {
     "severity" : "critical",
-    "retries" : [ {
-      "uid" : "74fcfb5658b38a37",
-      "status" : "passed",
-      "time" : {
-        "start" : 1754312087075,
-        "stop" : 1754312089160,
-        "duration" : 2085
-      }
-    } ],
+    "retries" : [ ],
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "8e0546c891f84740.json",
+  "source" : "b9fe87d1a50dbbb8.json",
   "parameterValues" : [ ]
 }
